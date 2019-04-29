@@ -2,9 +2,9 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: swc        # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
                       # Be sure to update the Carpentry type in _config.yml as well.  
-venue: "Good Practices for High Performance Computing and Cloud" # brief name of host site without address (e.g., "Euphoric State University")
-shortaddress: "SURFsara, Amsterdam (NL)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-address: "SURFsara (rooms VK1/VK2), Science Park 140, Amsterdam"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "Good Practices for Machine Learning" # brief name of host site without address (e.g., "Euphoric State University")
+shortaddress: "SURF Utrecht, Utrecht (NL)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "SURF Utrecht. Kantoren Hoog Overborch (Hoog Catharijne), Moreelsepark 48, 3511 EP Utrecht. Room 3.1"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "nl"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "52.356882,4.954412"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
@@ -12,8 +12,8 @@ humandate: "May 22-23, 2019"    # human-readable dates for the workshop (e.g., "
 humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-05-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-05-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Carlos Martínez Ortiz (NLeSC), Ander Astudillo (SURFsara)"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Dafne van Kuppevelt (NLeSC)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["(to be confirmed)"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["(to be confirmed)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carlos.teijeiro@surfsara","c.martinez@esciencecenter.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -73,11 +73,12 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="general">General Information</h2>
 
-If you are facing the big challenge of developing your own research software project only with the help of your laptop, this is the right workshop for you! In this workshop you will learn practical basics to make research software more discoverable, reusable and transparent, and how to use the HPC Cloud platform to help you to achieve your goals.
+Machine learning has become a hugely popular topic in the last years. Everybody is talking about it and it has shown to be very helpful for different purposes. However, which are the potential benefits of machine learning applied to research and how can machine learning methods get to be an integral part of a software project? This workshop will provide an answer to these questions.
 
 In particular, you will get an overview of good practices that will help you start your Open Source Software project. You will get some insight on helpful tools for unit testing, package management, continuous integration and containerisation.
 
-You will also be learning how to use the high performance compute systems at SURFsara to enhance your research. In particular you will experience how to become the administrator of your own HPC environment using the HPC Cloud platform. Here you’ll be learning how to use the web application to create and manage virtual machines, with which you can run your tasks using the operating system and graphical interface of your choice.
+On the second day you will get familiar with the basics of machine learning and some advice on how to use different support libraries to build your own software project. The theory on the different types of learning will be mixed with hands-on exercises using Jupyter notebooks, which run on the systems at SURFsara.
+
 
 {% comment %}
 AUDIENCE
@@ -134,8 +135,7 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
   <strong>
-    You don't need to have any previous knowledge of the tools
-    that will be presented at the workshop.
+    Participants should have at least a basic level of programming experience (preferably in Python).
   </strong>
 </p>
 
@@ -242,6 +242,9 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Contents of the course</h2>
 
+More information will be coming soon!
+
+{% comment %}
 {% if page.carpentry == "swc" %}
 {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -249,6 +252,7 @@ please preview your site before committing, and make sure to run
 {% elsif page.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
+{% endcomment %}
 
 <hr/>
 
@@ -261,6 +265,9 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
+More information will be coming soon!
+
+{% comment %}
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -268,6 +275,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
+{% endcomment %}
 
 {% comment %}
 Collaborative Notes
@@ -300,6 +308,9 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 
 <h2 id="setup">Setup</h2>
+More information will be coming soon!
+
+{% comment %}
 
 <p>
   To participate in this
@@ -864,5 +875,6 @@ please preview your site before committing, and make sure to run
     </li>
   </ol>
 </div>
+{% endcomment %}
 {% endcomment %}
 
