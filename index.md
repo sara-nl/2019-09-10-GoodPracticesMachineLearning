@@ -265,9 +265,6 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-More information will be coming soon!
-
-{% comment %}
 {% if page.carpentry == "swc" %}
 {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -275,7 +272,7 @@ More information will be coming soon!
 {% elsif page.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
-{% endcomment %}
+
 
 {% comment %}
 Collaborative Notes
@@ -308,9 +305,6 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 
 <h2 id="setup">Setup</h2>
-More information will be coming soon!
-
-{% comment %}
 
 <p>
   To participate in this
@@ -875,6 +869,5 @@ More information will be coming soon!
     </li>
   </ol>
 </div>
-{% endcomment %}
 {% endcomment %}
 
