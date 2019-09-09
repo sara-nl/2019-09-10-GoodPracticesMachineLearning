@@ -15,7 +15,7 @@ enddate: 2019-09-11        # machine-readable end date for the workshop in YYYY-
 instructor: ["Carlos Martínez Ortiz (eScience Center), Sagar Dolas (SURFsara), Ruben Hekster (SURFsara)"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Johan Hidding (eScience Center), Maxwell Cai (SURFsara), David Ruhe (SURFsara)"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["carlos.teijeiro@surfsara","c.martinez@esciencecenter.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes:    https://docs.google.com/document/d/1Fo948SdXo3BbCmD3i0HWXxO-oNsJV1Tdzf5Wpv-EaJM/edit?usp=sharing         # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
